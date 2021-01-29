@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const mainRouter = require('./routers/mainRouter');
 const partyRouter = require('./routers/PartyRouters');
+const testRouter =require('./routers/TestRouter');
 
 app.use(mainRouter);
 app.use(partyRouter);
